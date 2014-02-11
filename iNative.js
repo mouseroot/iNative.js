@@ -22,6 +22,7 @@ if(navigator.userAgent.indexOf("iPhone") != -1)
 			// Portrait
 			portrait();
 		}
+		getCurrentViewport();
 	}
 
 	//Function to get the current window dimensions
