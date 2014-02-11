@@ -23,6 +23,12 @@ if(navigator.userAgent.indexOf("iPhone") != -1)
 			portrait();
 		}
 	}
+
+	//Function to get the current window dimensions
+	function getCurrentViewport() 
+	{
+		alert(window.innerWidth + " : " + window.innerHeight);
+	}
 }
 else
 {
